@@ -1,0 +1,13 @@
+# Transmission Tracker 修改器配置文件
+
+# 正则表达式，用于匹配要替换的tracker地址
+pattern: "example\.com"
+
+# 新的tracker地址
+tracker: "https://new.example.com/announce"
+
+# Transmission RPC 配置
+host: "localhost"
+port: 9091
+username: "your-username"
+password: "your-password"
